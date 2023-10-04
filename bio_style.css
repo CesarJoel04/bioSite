@@ -2,5 +2,93 @@ body {
     font-family: Arial, sans-serif;
     font-size: 20;
     color: blue;
-    background-color: beige;
+    background-color: gray;
+}
+.page{
+    display: block;
+	width: 1300px;
+	min-height: 800px;
+	overflow: auto;
+	margin: 0px auto 0px auto;
+	box-sizing: border-box;
+}
+
+ .left-aside {
+
+    width: 30%;
+    background-color: gray;
+    float: left;
+    clear: none;
+    min-height: 1000px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.top-right{
+    background-color: write;
+	float: right;
+	clear: none;
+	min-height: 350px;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 10px;
+
+}
+
+.bottom-right{
+    background-color: #FFFFFF;
+	float: left;
+	clear: none;
+	min-height: 445px;
+	width: 70%;
+	box-sizing: border-box;
+	padding: 10px;
+	display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-menu{
+    float: left;
+    padding: 20px;
+    text-align: right;
+    clear: none;
+    min-height: 50px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+
+img{
+    display: flex;
+    padding: 10px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.main-picture{
+    padding: 35px;
+    display: flex;
+    align-items: center;
+}
+
+a{
+    padding: 10px;
+
+}
+.paragraph{
+    flex-basis: 30%;
+    padding: 10px;
+
+}
+
+.paragraph p {
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    text-align: center
 }
